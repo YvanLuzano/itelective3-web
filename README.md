@@ -11,7 +11,7 @@ This is for a payroll management system that is created for hte Local Government
 ## Frameworks and Stack Used
 <img src="https://logospng.org/download/laravel/logo-laravel-1024.png" width="80" /> &emsp; &emsp;<img src="https://avatars.githubusercontent.com/u/6954821?v=4&s=160" width="80" /> &emsp; &emsp;<img src="https://cdn.freebiesupply.com/logos/large/2x/mysql-5-logo-png-transparent.png" width="80" />
 
-&ensp; Laravel  &emsp; |&emsp; Breeze-React &emsp;  | &emsp;  MySQL
+&ensp; [Laravel](https://laravel.com/)  &emsp; |&emsp; [Breeze-React](http://breeze.github.io/doc-main/) &emsp;  | &emsp;  [MySQL](https://www.mysql.com/)
 
 ## Subsystems
 * Payment Dates
