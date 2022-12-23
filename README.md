@@ -14,5 +14,9 @@ This is for a payroll management system that is created for hte Local Government
 &ensp; [Laravel](https://laravel.com/)  &emsp; |&emsp; [Breeze-React](http://breeze.github.io/doc-main/) &emsp;  | &emsp;  [MySQL](https://www.mysql.com/)
 
 ## Subsystems
+* Basic Employee Information
 * Payment Dates
-* Employee Departments
+* Departments with Employees and Projects
+* Employee Absences/Leaves
+* Gross and Net Income of Employee
+* Payroll History
