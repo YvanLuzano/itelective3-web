@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .cropA { 
+        -webkit-clip-path: polygon(0 , 100% 0%, 80% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+<div class="flex justify-center items-center h-screen">
+  <div class="outline outline-offset-2 z-40 absolute" style="outline-width: 16px;">
+    <div class="rounded-lg shadow-lg bg-white max-w-sm justify-center mt-10">
+      <div class="relative">
+      <div class="relative bottom-0 left-0 flex justify-center items-center">
+          <img src="Avatar.jpg" alt="" class="rounded-full p-1 absolute top-20 rounded-full z-10 w-32 h-32 mt-8" loading="lazy" />
+      </div>
+        <div class = "cropA">
+          <a href="#!">
+            <img class="rounded-t-lg -mt-10 w-400 h-200 bg-clip-padding z-8" src="Cover.JPG" alt="Avatar"/>
+          </a>
+        </div>
+      </div>
+
+      <br>
+      <div class="p-6">
+        <div class="flex justify-center">
+        <h5 class="text-black-900 text-xl font-medium mb-2" style="text-align: center;">Yvan Zedrick Luzano</h5>
+        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="check-circle" class="w-4 h-4 text-orange-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path fill="currentColor" d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
+        </svg></div>
+        <p class="text-gray-700 text-base mb-4" style="text-align: center;">
+          Tagum City, Davao del Norte, Philippines
+        </p>
+        <div class=" flex justify-center">
+        <button type="button" class=" inline-block px-3 py-1.5 bg-white-600 text-orange-500 font-medium text-xs leading-tight uppercase rounded shadow-md ease-in-ou flex justify-center">Following</button>
+      </div> </div>
+    
+        <div class=" flex justify-center font-thin">
+          <p style="margin-left:8px">Followers</p>
+          <p style="margin-left:48px; margin-right:48px;">Following</p>
+          <p style="margin-left:24px; margin-right: 4px;">Tracks</p>
+        </div>
+        <div class=" flex justify-center space-x-24 font-thick text-3xl">
+          <p style="margin-left:2px; margin-right:2px;">1.81M</p>
+          <p style="margin-left:64px; margin-right:80px;">3</p>
+          <p style="margin-left:20px; margin-right:16px;">35</p>
+        </div>
+      <br>
+      <div class=" flex justify-center">
+        <button type="button" class=" w-full h-16 inline-block px-6 py-2.5 bg-orange-500 text-white font-medium text-xs leading-normal uppercase shadow-md hover:bg-orange-600 hover:shadow-lg focus:bg-orange-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-800 active:shadow-lg transition duration-150 ease-in-out">View Profile</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    
+</body>
+</html>
